@@ -1,0 +1,9 @@
+package com.scaler.paymentService.services.paymentgateway;
+
+
+public interface PaymentGateway {
+
+    String generatePaymentLink(String orderId, String email, String phoneNumber, Long amount);
+
+
+}
